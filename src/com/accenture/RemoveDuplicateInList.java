@@ -1,4 +1,4 @@
-package com.dsa.list;
+package com.accenture;
 
 import java.util.*;
 

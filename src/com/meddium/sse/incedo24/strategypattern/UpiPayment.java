@@ -1,0 +1,8 @@
+package com.meddium.sse.incedo24.strategypattern;
+
+public class UpiPayment implements PaymentStrategy{
+    @Override
+    public void pay(double amount) {
+        System.out.println("Paid ₹"+ amount +" using UPI");
+    }
+}
